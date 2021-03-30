@@ -8,7 +8,7 @@ count_under35
 ---------------
         214512
 
->* Note from Jess: `there may be two relevant numbers here: people legally eligible to vote, and people registered. I suspect the KC data will tell us about people who are registered and people who then voted, and then we'd have to look at census data to get the bigger-picture analysis of how many youth and 50+ were legally eligible to vote. But let's dig into the data & see!
+>Note from Jess: `there may be two relevant numbers here: people legally eligible to vote, and people registered. I suspect the KC data will tell us about people who are registered and people who then voted, and then we'd have to look at census data to get the bigger-picture analysis of how many youth and 50+ were legally eligible to vote. But let's dig into the data & see!
 
 How many people 50+ were eligible to vote?
 
