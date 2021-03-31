@@ -1,4 +1,3 @@
--- psql -d 350seattle -f voter-queries.sql
 \echo Set election date
 
 create or replace function election_date_2018() returns timestamp as $$
