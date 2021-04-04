@@ -44,7 +44,7 @@ percent
 
 What percent of those who voted are under 35?
 
-        percent
+percent
 ------------------------
  0.30330430095057808813
 
