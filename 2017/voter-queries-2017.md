@@ -38,28 +38,28 @@ How many eligible over 50 actually voted? (Assumes VOTED = 1 means they voted)
               93988
 
 
-What percent of the eligible voting population do those under 35 represent?
+## What percent of the eligible voting population do those under 35 represent?
 
 percent        
 ------------------------
  0.43455048255453566720
 
 
-What percent of those who voted are under 35?
+## What percent of those who voted are under 35?
 
 percent        
 ------------------------
  0.21567054277887158157
 
 
-What percent of the eligible voting population do those over 50 represent?
+## What percent of the eligible voting population do those over 50 represent?
 
 percent        
 ------------------------
  0.31139112729115051211
 
 
-What percent of those who voted are over 50?
+## What percent of those who voted are over 50?
 
 percent        
 ------------------------
