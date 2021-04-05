@@ -3,10 +3,11 @@
 * count_total_eligible - 521210
 
 
-## How many youth (people under 35) were eligible* to vote?
+## How many youth (people under 35) were eligible to vote?
 
 * count_under35 - 202214
 
+## How many over 50 were eligible to vote?
 
 * count_over50 - 178262
 
