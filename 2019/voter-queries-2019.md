@@ -1,7 +1,6 @@
-# Total eligible voters 2019
+## Total eligible voters 2019
 
 * count_total_eligible - 521210
-
 
 ## How many youth (people under 35) were eligible to vote?
 
