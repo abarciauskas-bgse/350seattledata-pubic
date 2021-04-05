@@ -1,25 +1,27 @@
 # Youth voter analysis
 
-This describes the methodology for analyzing King County voter participation.
+This describes the methodology for analyzing King County voter participation, specifically the markdown files in each subdirectory answer questions about what percentage of registered voters voted in the age groups of under 35 and over 50.
 
 ## Create the database
 
-Right now this is specific to 2018 and requires you have a copy of `KCE_CityOfSeattle_11[2017|2018|2019].csv`
+This analysis assumes copies of voter data having the filename `KCE_CityOfSeattle_11[2017|2018|2019].csv`
 
 ```bash
-cd 2019
+cd <year>/
 psql -d 350seattle -f create-voter-table.sql
 ```
 
-## Running the following will generate the numbers of interest for 2018.
+## Running the following will generate the numbers of interest for `<year>`.
 
-The date of the 2017 general election was Nov 7.
-The date of the 2018 election was Nov 6.
-The date of the 2019 election was Nov 5. 
+We use the last date of ballot submission for a given year by which to calculate the age of the voters.
 
-Note: The version of voter-queries-2018.md here is a cleaned up version (removed some sql output).
+* The date of the 2017 general election was Nov 7.
+* The date of the 2018 election was Nov 6.
+* The date of the 2019 election was Nov 5. 
+
+Note: The version of `<year>/voter-queries-<year>.md` is a cleaned up version (reformatted  sql output).
 
 ```bash
-cd 2019/
-psql -d 350seattle -f voter-queries-2019.sql > voter-queries-2019.md
+cd <year>/
+psql -d 350seattle -f voter-queries-<year>.sql > voter-queries-<year>.md
 ```
