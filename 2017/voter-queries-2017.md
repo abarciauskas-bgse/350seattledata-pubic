@@ -1,12 +1,13 @@
 
-# Total eligible voters 2017
+### Total eligible voters 2017
 
 * count_total_eligible  -  521081
 
-### How many youth (people under 35) were eligible* to vote?
+### How many youth (people under 35) were eligible to vote?
 
 * count_under35 - 226436
 
+### How many over 50 were eligible to vote?
 
 * count_over50 - 162260
 
