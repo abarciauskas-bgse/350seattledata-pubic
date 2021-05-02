@@ -1,4 +1,4 @@
--- psql -d 350seattle -f create_voter_table.sql
+-- psql -d 350seattle -f 2017/create-voter-table.sql
 drop table if exists voters_kc_2017;
 create table voters_kc_2017 (
     VoterID integer,
