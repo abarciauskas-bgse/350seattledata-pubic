@@ -35,4 +35,4 @@ create table voters_kc_2017 (
 
 COPY 
     voters_kc_2017(VoterID, StatusCode, FirstName, MiddleName, LastName, NameSuffix, ResidenceAddress, ResidenceUnitType, ResidenceUnitNumber, ResidenceCity, ResidenceState, ResidenceZipCode, PrecinctID, PrecinctPortion, PrecinctName, OriginalRegistrationDate, Gender, Birthdate, MailAddress1, MailAddress2, MailAddress3, MailAddress4, DistrictName1, DistrictName2, DistrictName3, DistrictName4, DistrictName5, DistrictName6, ElectionDesc_1, Voted)
-FROM '../data/KCE_CityOfSeattle_112017.csv' DELIMITER ',' CSV HEADER;
+FROM '/Users/aimeebarciauskas/github/abarciauskas-bgse/350seattledata-public/data/KCE_CityOfSeattle_112017.csv' DELIMITER ',' CSV HEADER;
