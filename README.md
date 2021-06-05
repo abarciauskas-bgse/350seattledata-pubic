@@ -2,9 +2,15 @@
 
 This describes the methodology for analyzing King County voter participation, specifically the markdown files in each subdirectory answer questions about what percentage of registered voters voted in the age groups of under 35 and over 50.
 
+## Requirements
+
+* psql
+* python version 3.7.2
+* jupyter
+
 ## Create the database
 
-This analysis assumes copies of voter data having the filename `KCE_CityOfSeattle_11[2017|2018|2019].csv`
+This analysis assumes copies of voter data having the filename `KCE_CityOfSeattle_11[2017,2020].csv`
 
 ```bash
 cd <year>/
@@ -18,10 +24,10 @@ We use the last date of ballot submission for a given year by which to calculate
 * The date of the 2017 general election was Nov 7.
 * The date of the 2018 election was Nov 6.
 * The date of the 2019 election was Nov 5. 
+* The date of the 2019 election was Nov 3. 
 
-Note: The version of `<year>/voter-queries-<year>.md` is a cleaned up version (reformatted  sql output).
+## Run the notebook
 
 ```bash
-cd <year>/
-psql -d 350seattle -f voter-queries-<year>.sql > voter-queries-<year>.md
+jupyter notebook
 ```
